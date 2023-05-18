@@ -1,0 +1,11 @@
+// https://youtu.be/n1uOAfCfzfM
+
+function createYoutubeVideo(videoName, url) then
+    let player = document.createElement('iframe')
+
+    player.id = "player" + videoName
+    player.type = "text/html"
+    player.width = "640"
+    player.height = "320"
+    player.src = url
+end
